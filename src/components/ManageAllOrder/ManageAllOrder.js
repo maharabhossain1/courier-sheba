@@ -47,7 +47,22 @@ export default function ManageAllOrder() {
   };
   return (
     <div>
-      <h1>All Order</h1>
+      <div>
+        <div>
+          <img
+            className="img-fluid"
+            src="https://i.ibb.co/v1bLykC/9.jpg"
+            alt=""
+          />
+        </div>
+        <div className=" my-4 home-text w-75 m-auto">
+          <h1>Hello Admin </h1>
+          <h4>
+            Here is your All Users Orders , <br /> your can delete your order
+            and also update your order status{" "}
+          </h4>
+        </div>
+      </div>
       {orders.map((order) => {
         const { status, _id, serviceName, email } = order;
         return (

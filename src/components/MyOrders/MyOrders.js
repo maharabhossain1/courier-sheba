@@ -31,7 +31,22 @@ export default function MyOrders() {
 
   return (
     <div>
-      <h1>MyOrders</h1>
+      <div>
+        <div>
+          <img
+            className="img-fluid"
+            src="https://i.ibb.co/7tb4hLn/8.jpg"
+            alt=""
+          />
+        </div>
+        <div className=" my-4 home-text w-75 m-auto">
+          <h1>Hello {user?.displayName} </h1>
+          <h4>
+            Here is your Orders , <br /> your can delete your order and also see
+            your order status{" "}
+          </h4>
+        </div>
+      </div>
       {orders.map((order) => {
         const { status, _id, serviceName, email } = order;
         return (
