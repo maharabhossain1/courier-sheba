@@ -1,9 +1,10 @@
+// Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyB2H9R8wBKKZhb3KBNEUKLCXZgXyaql9oY",
-  authDomain: "sheba-47ba3.firebaseapp.com",
-  projectId: "sheba-47ba3",
-  storageBucket: "sheba-47ba3.appspot.com",
-  messagingSenderId: "297109766111",
-  appId: "1:297109766111:web:bd934d7296e68b26bd8e6a",
+  apiKey: "AIzaSyDDP2pLQq60uQC1Cpx0-PSjycP1OInuCBg",
+  authDomain: "courier-service-2021.firebaseapp.com",
+  projectId: "courier-service-2021",
+  storageBucket: "courier-service-2021.appspot.com",
+  messagingSenderId: "406032691621",
+  appId: "1:406032691621:web:45fa3ad7d6ad05940c384c",
 };
 export default firebaseConfig;
