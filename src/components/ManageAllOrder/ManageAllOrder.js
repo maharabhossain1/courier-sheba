@@ -68,7 +68,7 @@ export default function ManageAllOrder() {
         return (
           <div
             key={_id}
-            className="d-flex w-75 m-auto my-4 p-3 border-custom-color align-items-center"
+            className="d-md-flex  w-75 m-auto my-4 p-3 border-custom-color align-items-center"
           >
             <div className="w-75">
               <h4>{serviceName}</h4>
