@@ -29,7 +29,7 @@ export default function ManageAllOrder() {
   ///////update user order status
 
   const handleUpdateOrder = (id) => {
-    const url = `http://localhost:5000/allorder/${id}`;
+    const url = `https://protected-badlands-11098.herokuapp.com/allorder/${id}`;
     const updateStatus = { status: "Confirm" };
     fetch(url, {
       method: "PUT",
