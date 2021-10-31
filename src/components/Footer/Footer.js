@@ -46,7 +46,7 @@ export default function Footer() {
       </Container>
       <div className="container mt-3  d-flex  justify-content-center">
         <p className="text-xs-center text-light">
-          &copy;{new Date().getFullYear()} Medi Sheba -All Rights
+          &copy;{new Date().getFullYear()} Courier Sheba -All Rights
         </p>
       </div>
     </div>

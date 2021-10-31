@@ -79,8 +79,8 @@ export default function Login() {
           >
             <Form.Control
               onBlur={handleNameChange}
-              type="email"
-              placeholder="name@example.com"
+              type="text"
+              placeholder="fullname"
             />
           </FloatingLabel>
         )}
