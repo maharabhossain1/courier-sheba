@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Button } from "react-bootstrap";
 import useAuth from "../../hook/useAuth";
+import { TiTick } from "react-icons/ti";
 
 export default function MyOrders() {
   const { user } = useAuth();
@@ -68,7 +69,7 @@ export default function MyOrders() {
                   } p-2`}
                 >
                   {" "}
-                  {status}
+                  {status} <TiTick />
                 </span>
               </p>
             </div>

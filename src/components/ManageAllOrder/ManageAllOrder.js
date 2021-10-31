@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Button } from "react-bootstrap";
-
+import { TiTick } from "react-icons/ti";
 export default function ManageAllOrder() {
   const [orders, setOrders] = useState([]);
   useEffect(() => {
@@ -85,7 +85,7 @@ export default function ManageAllOrder() {
                   } p-2`}
                 >
                   {" "}
-                  {status}
+                  {status} <TiTick />
                 </span>
               </p>
             </div>
@@ -98,7 +98,7 @@ export default function ManageAllOrder() {
                 }}
               >
                 {" "}
-                Confirm ✔︎{" "}
+                Confirm <TiTick />
               </Button>
               <Button
                 className="bg-danger"
