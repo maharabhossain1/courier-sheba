@@ -59,7 +59,18 @@ export default function MyOrders() {
               <p>
                 <small>{email}</small>
               </p>
-              <p>{status}</p>
+              <p>
+                <span
+                  className={`${
+                    status.toLowerCase() === "confirm"
+                      ? "custom-div-active"
+                      : "custom-div"
+                  } p-2`}
+                >
+                  {" "}
+                  {status}
+                </span>
+              </p>
             </div>
             <div>
               <Button

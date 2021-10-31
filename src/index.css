@@ -13,6 +13,9 @@ code {
     monospace;
 }
 
+/*************
+ Custom Css
+ *************/
 .btn-custom-color {
   background-color: #2a522a !important;
 }
@@ -23,4 +26,14 @@ code {
 
 .border-custom-color {
   background-color: #ffffff !important;
+}
+
+.custom-div {
+  background-color: #9b9b9b8c;
+  border-radius: 40px;
+}
+.custom-div-active {
+  background-color: #abcfb659;
+  color: #336d46;
+  border-radius: 40px;
 }

@@ -9,6 +9,7 @@ export default function ManageAllOrder() {
       .then((data) => setOrders(data));
   });
 
+  // Delete function
   const handleUserID = (id) => {
     const proceed = window.confirm("Are you sure, you want to delete?");
     if (proceed) {
@@ -75,7 +76,18 @@ export default function ManageAllOrder() {
               <p>
                 <small>{email}</small>
               </p>
-              <p>{status}</p>
+              <p>
+                <span
+                  className={`${
+                    status.toLowerCase() === "confirm"
+                      ? "custom-div-active"
+                      : "custom-div"
+                  } p-2`}
+                >
+                  {" "}
+                  {status}
+                </span>
+              </p>
             </div>
             <div>
               <p>Order Confirm or Delete</p>
