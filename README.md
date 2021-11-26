@@ -6,6 +6,6 @@ This is A Courier Service Related page
 - This is A Courier service full-stack Web APP
 - This Page is Build With React.js ,Node.js ,Mongodb ,FirebaseAuth
 - Is Has A Authentication Page(Firebase) where You Can LogIn
-- WithOut LogIn Your Will not be Permited to visit some Of the page In this Wbe APP.
-- In This WebApp You will Found 6 Types Of services
-- Also This App is Fully responsive
+- Constructed CRUD (Create, Read, Update, Delete) features using Node.js and Responsive Design.
+- Option for the user to create an account, make orders, manage orders
+- In This WebApp You will Found 6 Types Of services.
