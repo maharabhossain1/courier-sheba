@@ -12,7 +12,7 @@ export default function Services() {
       .then((res) => res.json())
       .then((data) => setSheba(data))
       .finally(() => setIsLoading(false));
-  }, []);
+  }, [setIsLoading]);
   if (isLoading) {
     return (
       <div className="m-5 p-5 d-flex ">
